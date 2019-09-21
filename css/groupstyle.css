@@ -1,0 +1,173 @@
+body {
+    background-color: #f2f2f2;
+}
+/*
+#f2f2f2
+*/
+
+.h7 {
+    font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+    margin-top: 0.97rem;
+    
+}
+
+.groups{
+    position: relative;
+    top: -10px;
+    margin-bottom: 10px;
+    left: 90px;
+    font-size: 2.85vw;
+    color: black;
+}
+
+#logout:hover{
+    color: red;
+}
+
+#brand{
+    color: #e6ac00;
+    font-weight: bold;
+}
+
+#wrapper{
+    position: relative;
+    top: 70px;
+}
+
+#navbar{
+    background-color: #001a33;
+}
+
+.navbar-custom .navbar-brand{
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link{
+    color:white;
+}
+
+.nav-tabs .nav-link{
+    color: #001a33;
+}
+
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover{
+    background-color:  #001a33;
+    color: #e6ac00;
+}
+
+#group{
+    height: 60px;
+    margin-right: 6px;
+}
+
+#group2{
+    height: 58px;
+    margin-right: 8px;
+}
+
+#baker-basketball{
+    color: #001a33;
+    text-align: center;
+    
+}
+
+hr{
+    color: black;
+    margin-bottom: 0px;
+    margin-top: -1px;
+}
+
+
+.chatlogs{
+    padding: 10px;
+    width: 100%;
+    height: 550px;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+
+.chatlogs::-webkit-scrollbar{
+    width: 10px;
+}
+
+.chatlogs::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background: rgba(0, 0, 0, .1)
+}
+
+
+.chat{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    height: auto;
+    width: 100%;
+    margin-bottom: 8px;
+}
+
+.chat .user-photo{
+    height: 60px;
+    width: 60px;
+    background: #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.chat .user-photo img{
+    width: 100%;
+}
+.chat .chat-message{
+    width: 70%;
+    padding: 15px;
+    margin: -17px 10px 0px 0px;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+}
+
+.chat .user-block{
+    padding-left: 5px;
+    width: 88%;
+}
+
+.friend .chat-message{
+    background-color:#3399ff;
+}
+
+.self .chat-message{
+    background-color: #001a33;
+    margin-top: 15px;
+    margin-left: 200px;
+    text-align: justify;
+}
+
+#text-box{
+    width: 75%;
+    height: 50px;
+}
+
+#send-button{
+    position: relative;
+    left: 460px;
+    bottom: 45px;
+}
+
+.form-group{
+    padding-left: 20px;
+}
+
+.chat-box{
+    margin-top: -20px;
+    padding-top: 10px;
+    margin-bottom: -40px;
+}

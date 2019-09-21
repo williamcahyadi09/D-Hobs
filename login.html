@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/login style.css">
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/proper.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row" id="row">
+            <div class="col-lg-7" id="col1">
+                <div id="content"> 
+                    <h1 id="brand">D'Hobs</h1>
+                    <p id="slogan">Find your friends and built your community!</p>
+                </div>
+            </div>
+            
+            <div class="card text-center">
+              <div class="card-header">
+                <ul class="nav nav-tabs card-header-tabs nav-justified" role="tablist"> 
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#Login">Login</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#Signup">Sign up</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="card-body" style="width: 400px" >
+                <div class="tab-content">
+                    <div id="Login" class="container tab-pane active">
+                        <div class="form-group text-justify">
+                          <label for="email">Email or username</label>
+                          <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="Email or username">
+                        </div>
+                        
+                        <div class="form-group text-justify">
+                          <label for="">Password</label>
+                          <input type="password" class="form-control" name="" id="" placeholder="*********">
+                        </div>
+
+                        <div id="login-row">
+
+                          <div class="col-md-7 text-justify" id="forgot">
+                            <a class="small" href="#">Forgot password?</a>
+                          </div> 
+
+                          <div class="col-md-6">
+                            <div class="form-group">
+                              <a href="home.html">
+                                <button type="submit" class="btn btn-primary btn-block" id="login-button"> Login  </button>
+                              </a>
+                            </div> <!-- form-group// -->
+                          </div>
+
+                        </div>
+                
+                        <hr>
+                        <p>
+                            <a href="" class="btn btn-block btn-outline-primary" id="login-twitter"> <i class="fab fa-twitter"></i>   Login via Twitter <img id="twitter" src="twitter.png"></a>
+                            <a href="" class="btn btn-block btn-outline-primary" id="login-facebook"> <i class="fab fa-facebook-f"></i>   Login via facebook <img id="facebook" src="facebook.png"></a>
+                        </p>
+                    </div>
+                    <div id="Signup" class="container tab-pane fade"><br>
+                      <form class="form-inline" style="margin-top: -10px">
+
+                        <div class="form-group" style="margin: 0px 0px 10px 72px">
+                          <label for="" style="margin: 0px 8px 0px 0px">Name </label>
+                          <input type="text" name="" id="" class="form-control" placeholder="Name" aria-describedby="helpId">
+                        </div>
+                    
+                        <div class="form-group" style="margin: 0px 0px 10px 72px">
+                          <label for="" style="margin: 0px 12px 0px 0px">Email</label>
+                          <input type="email" class="form-control" name="" id="" aria-describedby="emailHelpId" placeholder="blabla@yourmail.com">
+                        </div>
+
+                        <div class="form-group" style="margin: 0px 0px 10px 42px">
+                          <label for="" style="margin: 0px 10px 0px 0px">Username</label>
+                          <input type="text"
+                            class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                        </div>
+
+                        <div class="form-group" style="margin: 0px 0px 10px 20px">
+                          <label for="" style="margin:0px 6px 10px 33px">Password</label>
+                          <input type="password" class="form-control" name="" id="" placeholder="">
+                        </div>
+
+                        <div class="form-group" style="margin: 0px 0px 10px -10px">
+                          <label for="" style="margin: 0px 8px 0px 0px">Confirm password</label>
+                          <input type="password" class="form-control" name="" id="" placeholder="">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" id="sign-up">Sign up</button>
+
+                      </form>
+                    </div>
+                  </div>
+            </div>
+            
+
+        </div>
+    </div>
+</body>
+</html>

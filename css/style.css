@@ -1,0 +1,67 @@
+body {
+    background-color: #f2f2f2;
+}
+/*
+#f2f2f2
+*/
+
+.h7 {
+    font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+    margin-top: 0.97rem;
+    
+}
+
+.groups{
+    position: relative;
+    top: -10px;
+    margin-bottom: 10px;
+    left: 90px;
+    font-size: 2.20vw;
+    color: black;
+}
+
+#logout:hover{
+    color: red;
+}
+
+#brand{
+    color: #e6ac00;
+    font-weight: bold;
+}
+
+#wrapper{
+    position: relative;
+    top: 70px;
+}
+
+#navbar{
+    background-color: #001a33;
+}
+
+.navbar-custom .navbar-brand{
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link{
+    color:white;
+}
+
+
+@media (min-width: 992px) {
+    .gedf-main {
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+    .gedf-card {
+        margin-bottom: 2.77rem;
+    }
+}

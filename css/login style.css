@@ -1,0 +1,95 @@
+body{
+    background-color: #001a33;
+}
+
+#col1{
+    
+    /*background-color: blue;*/
+    color: black;
+    top: 170px;
+}
+
+#content{
+    position: relative;
+    top: 100px;
+    left: 80px;
+}
+
+#brand{
+    color: #e6ac00;
+    position: relative;
+    font-size: 85px;
+}
+
+#slogan{
+    position: relative;
+    color: white;
+    font-size: 30px;
+}
+
+#choose{
+    background-color: #ffcc33;
+}
+
+
+/*nav-justified*/
+.card{
+    top : 130px;
+    left: 70px;
+}
+
+#forgot{
+    position: relative;
+    right: 10px;
+}
+
+.col-md-6{
+    position: relative;
+    left: 130px;
+    bottom: 20px;
+}
+
+.card-body{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    color: black;
+}
+
+hr{
+    position: relative;
+    bottom: 10px;
+    margin-bottom: 10px;
+}
+
+#login-button{
+    margin-left: 50px;
+}
+
+#twitter{
+    position: relative;
+    height: 30px;
+    left: 3px;
+    bottom: 1px;
+}
+
+#login-twitter:hover{
+    background-color: #ffcc33;
+    color: #001a33;
+}
+
+#facebook{
+    position: relative;
+    height: 30px;
+    left: 3px;
+    bottom: 1px;
+}
+
+#login-facebook:hover{
+    background-color: #ffcc33;
+    color: #001a33;
+}
+
+#sign-up{
+    margin: 20px 0px 0px 128px;
+}

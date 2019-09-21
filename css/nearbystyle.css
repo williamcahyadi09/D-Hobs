@@ -1,0 +1,97 @@
+body {
+    background-color: #f2f2f2;
+}
+/*
+#f2f2f2
+*/
+
+.h7 {
+    font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+    margin-top: 0.97rem;
+    
+}
+
+.groups{
+    position: relative;
+    top: -10px;
+    margin-bottom: 10px;
+    left: 90px;
+    font-size: 2.85vw;
+    color: black;
+}
+
+#logout:hover{
+    color: red;
+}
+
+#brand{
+    color: #e6ac00;
+    font-weight: bold;
+}
+
+#wrapper{
+    position: relative;
+    top: 70px;
+}
+
+#navbar{
+    background-color: #001a33;
+}
+
+.navbar-custom .navbar-brand{
+    color: white;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: rgba(255,255,255,.5);
+}
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:focus .nav-link,
+.navbar-custom .nav-item:hover .nav-link{
+    color:white;
+}
+
+.nav-tabs .nav-link{
+    color: #001a33;
+}
+
+#group{
+    height: 60px;
+    margin-right: 6px;
+}
+
+#group2{
+    height: 58px;
+    margin-right: 8px;
+}
+
+#baker-basketball{
+    color: #001a33;
+    text-align: center;
+    
+}
+
+hr{
+    color: black;
+    margin-bottom: 0px;
+    margin-top: -1px;
+}
+
+#map {
+    height: 80%;
+  }
+  /* Optional: Makes the sample page fill the window. */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#find{
+    margin-left: 230px;
+    margin-top: 30px;
+}
